@@ -13,10 +13,12 @@ body {
 
 /* Header */
 .header {
-    background-color: #1e293b;
+    background-color: #0f766e;
+    /* changement couleur */
     color: white;
     padding: 40px 20px;
     text-align: center;
+    position: relative;
 }
 
 .header h1 {
@@ -24,9 +26,18 @@ body {
     margin-bottom: 10px;
 }
 
+.badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 14px;
+    background-color: #134e4a;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
 /* Navigation */
 .nav {
-    background-color: #334155;
+    background-color: #115e59;
 }
 
 .nav ul {
@@ -47,10 +58,6 @@ body {
     font-weight: bold;
 }
 
-.nav a:hover {
-    text-decoration: underline;
-}
-
 /* Main content */
 .container {
     max-width: 1000px;
@@ -60,19 +67,15 @@ body {
 
 .card {
     background: white;
-    padding: 25px;
+    padding: 30px;
     margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-.card h2 {
-    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 .footer {
-    background-color: #1e293b;
+    background-color: #0f766e;
     color: white;
     text-align: center;
     padding: 20px;
